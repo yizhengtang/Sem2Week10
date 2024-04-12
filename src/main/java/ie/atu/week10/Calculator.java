@@ -10,4 +10,9 @@ public class Calculator {
         int result = firstNum - secondNum;
         return result;
     }
+
+    public int multiply(int firstNum, int secondNum) {
+        int result = firstNum * secondNum;
+        return result;
+    }
 }
