@@ -12,4 +12,9 @@ public class CalculatorTest {
         newCalc = new Calculator();
         assertEquals(10, newCalc.add(4,6));
     }
+    @Test
+    void subtractTest(){
+        newCalc = new Calculator();
+        assertEquals(4, newCalc.subtract(10,6));
+    }
 }
