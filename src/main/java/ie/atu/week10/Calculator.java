@@ -15,4 +15,9 @@ public class Calculator {
         int result = firstNum * secondNum;
         return result;
     }
+
+    public int divide(int firstNum, int secondNum) {
+        int result = firstNum / secondNum;
+        return result;
+    }
 }
